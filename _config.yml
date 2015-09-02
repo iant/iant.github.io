@@ -17,7 +17,7 @@ theme:
 #     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
 #  header_text_feature_image:
   footer_text: >
-   <small>&copy; Ian Townsend. Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a></small>
+   <small>&copy; Ian Townsend, {{ site.time | date: '%Y' }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a></small>
 
   # Icons
   rss: false
